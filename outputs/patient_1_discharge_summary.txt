@@ -1,0 +1,171 @@
+
+======================================================================
+DISCHARGE SUMMARY DRAFT
+Generated: 2026-06-04 05:53:16
+⚠️  THIS IS A DRAFT FOR CLINICIAN REVIEW — NOT A FINALIZED DOCUMENT
+======================================================================
+
+PATIENT DEMOGRAPHICS
+--------------------
+Based on the provided clinical documents, the extracted information is as follows:
+
+1. **Patient Name**: MISSING
+2. **Age**: MISSING
+3. **Gender**: She (female)
+4. **MRN/Patient ID**: MRN: Red Yellow — Green (Note: This appears to be a triage category, not a patient ID)
+5. **Date of Birth**: MISSING
+
+ADMISSION & DISCHARGE DATES
+---------------------------
+**Admission Date:** MISSING
+**Discharge Date:** 19.05.2026
+
+DIAGNOSES
+---------
+Here are the diagnoses extracted from the clinical documents:
+
+1. ACUTE GASTROENTERITIS WITH DEHYDRATION (SOURCE: patient_1.pdf)
+2. URINARY TRACT INFECTION (SOURCE: patient_1.pdf)
+3. THYROID DISORDER (SOURCE: patient_1.pdf)
+4. COLITIS (SOURCE: patient_1.pdf)
+5. FATTY LIVER CHANGES (SOURCE: patient_1.pdf)
+6. BED SORES (SOURCE: patient_1.pdf)
+7. REDNESS OF THE SKIN (SOURCE: patient_1.pdf)
+8. FORMATION OF BLISTERS (SOURCE: patient_1.pdf)
+9. DAMAGE TO SKIN (SOURCE: patient_1.pdf)
+10. TISSUE LOSS (SOURCE: patient_1.pdf)
+
+Note: The diagnoses related to bed sores are not explicitly stated as a single diagnosis, but rather as different stages of bed sores.
+
+HOSPITAL COURSE
+---------------
+**Presenting Complaints:**
+
+- Multiple episodes of loose stools
+- 2-3 episodes of vomiting
+- Fatigue since 3 days
+- Fever since yesterday
+
+**Key Findings:**
+
+- Elevated serum creatinine (1.65 mg/dl)
+- Low serum sodium (128.00 mmol/L)
+- Presence of ketone bodies in urine
+- 10-12/hpf of pus cells in urine
+- 13-20/hpf of epithelial cells in urine
+- Presence of bacteria in urine
+- Grade-I fatty liver changes on USG abdomen and pelvis
+- Mildly edematous part of ascending colon on USG abdomen and pelvis
+- 2-3/hpf of red blood cells in stool
+- Presence of pus cells in stool
+
+**Treatment Given:**
+
+- IV fluids
+- IV antibiotics
+- IV PPI's (Proton Pump Inhibitors)
+- IV antiemetics
+- Other supportive measures
+
+**Response to Treatment:**
+
+- Repeat serum creatinine (1.17 mg/dl) was normal
+- TSH and Free T4 were normal
+- Patient was advised to stay back for further management but attenders were not willing, hence discharged at request.
+
+**Condition at Discharge:**
+
+- Hemodynamically stable
+
+**Follow-up Instructions:**
+
+- Review immediately in case of fever, loose stools, vomiting, fatigue
+- Review on 19.05.2026, CBC (Complete Blood Count)
+- Urine culture and sensitivity report awaited
+
+PROCEDURES & INVESTIGATIONS
+---------------------------
+**Procedures Performed:**
+
+1. IV fluids administration
+2. IV antibiotics administration
+3. IV PPI's administration
+4. IV antiemetics administration
+5. USG abdomen and pelvis
+6. Dressing (no further details provided)
+
+**Investigations Ordered:**
+
+1. CBC (Complete Blood Count) - result available
+2. Serum creatinine - result available (initially elevated, then normal)
+3. Serum electrolytes - result available (low serum sodium)
+4. Urine routine - result available (ketone bodies (+), 10-12/hpf of pus cells, 13-20/hpf of epithelial cells with presence of bacteria)
+5. Urine culture and sensitivity - result pending
+6. TSH (Thyroid-Stimulating Hormone) - result available (normal)
+7. Free T4 - result available (normal)
+8. Stool routine - result available (2-3/hpf of red blood cells, plenty of pus cells)
+9. Viral serology/study - result missing
+10. Bed sores assessment - result missing
+
+ADMISSION MEDICATIONS
+---------------------
+Medication list at the time of ADMISSION:
+
+1. TAB. RACTIPER 40Witr (1-0-0)
+2. TAB. EMESET (3 DAYS)
+3. TAB. OFLOX TZ (SDAYS)
+4. TAB. M STRONG (1-0-0) (15 DAYS)
+5. TAB. ENTR( (1-0- 3 DAYS)
+6. 7 TAB. MEFTAL SPAS ITABSOS (4 TABLETS)
+7. 8 [TAB LopIRAMIDE [2G [101 (SDAYS)
+
+DISCHARGE MEDICATIONS
+---------------------
+Medication list at the time of DISCHARGE:
+
+1. TAB. RACTIPER 40Witr - 1-0-0 7DAYS (Before Food)
+2. TAB. EMESET - 3 DAYS
+3. TAB. OFLOX TZ - 5 DAYS
+4. TAB. M STRONG - 1-0-0 15 DAYS
+5. TAB. ENTR( - 1-0-0 3 DAYS
+6. 7 TAB. MEFTAL SPAS ITABSOS - 4 TABLETS
+7. 8 TAB. LopIRAMIDE [2G [101 - 5 DAYS
+
+MEDICATION RECONCILIATION
+-------------------------
+MISSING — not found in source documents
+
+DRUG INTERACTION CHECK
+----------------------
+MISSING — not found in source documents
+
+ALLERGIES
+---------
+MISSING
+
+FOLLOW-UP INSTRUCTIONS
+----------------------
+MISSING — not found in source documents
+
+PENDING RESULTS
+---------------
+MISSING — not found in source documents
+
+CONDITION AT DISCHARGE
+----------------------
+MISSING — not found in source documents
+
+CONFLICTS DETECTED
+------------------
+  None detected
+
+CLINICIAN REVIEW FLAGS  (ACTION REQUIRED)
+========================================
+  ⚠️  Possible diagnosis conflict — multiple sources found
+  ⚠️  One or more investigation results are pending
+  ⚠️  Allergy information not documented — clinician must verify
+  ⚠️  Agent hit max step cap (20) — summary may be incomplete
+
+======================================================================
+END OF DRAFT — Clinician must review and verify all sections above.
+======================================================================

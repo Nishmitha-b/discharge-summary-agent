@@ -1,0 +1,22 @@
+{
+  "demographics": "Based on the provided clinical documents, the extracted information is as follows:\n\n1. **Patient Name**: MISSING\n2. **Age**: MISSING\n3. **Gender**: She (female)\n4. **MRN/Patient ID**: MRN: Red Yellow \u2014 Green (Note: This appears to be a triage category, not a patient ID)\n5. **Date of Birth**: MISSING",
+  "dates": "**Admission Date:** MISSING\n**Discharge Date:** 19.05.2026",
+  "diagnoses": "Here are the diagnoses extracted from the clinical documents:\n\n1. ACUTE GASTROENTERITIS WITH DEHYDRATION (SOURCE: patient_1.pdf)\n2. URINARY TRACT INFECTION (SOURCE: patient_1.pdf)\n3. THYROID DISORDER (SOURCE: patient_1.pdf)\n4. COLITIS (SOURCE: patient_1.pdf)\n5. FATTY LIVER CHANGES (SOURCE: patient_1.pdf)\n6. BED SORES (SOURCE: patient_1.pdf)\n7. REDNESS OF THE SKIN (SOURCE: patient_1.pdf)\n8. FORMATION OF BLISTERS (SOURCE: patient_1.pdf)\n9. DAMAGE TO SKIN (SOURCE: patient_1.pdf)\n10. TISSUE LOSS (SOURCE: patient_1.pdf)\n\nNote: The diagnoses related to bed sores are not explicitly stated as a single diagnosis, but rather as different stages of bed sores.",
+  "hospital_course": "**Presenting Complaints:**\n\n- Multiple episodes of loose stools\n- 2-3 episodes of vomiting\n- Fatigue since 3 days\n- Fever since yesterday\n\n**Key Findings:**\n\n- Elevated serum creatinine (1.65 mg/dl)\n- Low serum sodium (128.00 mmol/L)\n- Presence of ketone bodies in urine\n- 10-12/hpf of pus cells in urine\n- 13-20/hpf of epithelial cells in urine\n- Presence of bacteria in urine\n- Grade-I fatty liver changes on USG abdomen and pelvis\n- Mildly edematous part of ascending colon on USG abdomen and pelvis\n- 2-3/hpf of red blood cells in stool\n- Presence of pus cells in stool\n\n**Treatment Given:**\n\n- IV fluids\n- IV antibiotics\n- IV PPI's (Proton Pump Inhibitors)\n- IV antiemetics\n- Other supportive measures\n\n**Response to Treatment:**\n\n- Repeat serum creatinine (1.17 mg/dl) was normal\n- TSH and Free T4 were normal\n- Patient was advised to stay back for further management but attenders were not willing, hence discharged at request.\n\n**Condition at Discharge:**\n\n- Hemodynamically stable\n\n**Follow-up Instructions:**\n\n- Review immediately in case of fever, loose stools, vomiting, fatigue\n- Review on 19.05.2026, CBC (Complete Blood Count)\n- Urine culture and sensitivity report awaited",
+  "procedures": "**Procedures Performed:**\n\n1. IV fluids administration\n2. IV antibiotics administration\n3. IV PPI's administration\n4. IV antiemetics administration\n5. USG abdomen and pelvis\n6. Dressing (no further details provided)\n\n**Investigations Ordered:**\n\n1. CBC (Complete Blood Count) - result available\n2. Serum creatinine - result available (initially elevated, then normal)\n3. Serum electrolytes - result available (low serum sodium)\n4. Urine routine - result available (ketone bodies (+), 10-12/hpf of pus cells, 13-20/hpf of epithelial cells with presence of bacteria)\n5. Urine culture and sensitivity - result pending\n6. TSH (Thyroid-Stimulating Hormone) - result available (normal)\n7. Free T4 - result available (normal)\n8. Stool routine - result available (2-3/hpf of red blood cells, plenty of pus cells)\n9. Viral serology/study - result missing\n10. Bed sores assessment - result missing",
+  "admission_medications": "Medication list at the time of ADMISSION:\n\n1. TAB. RACTIPER 40Witr (1-0-0)\n2. TAB. EMESET (3 DAYS)\n3. TAB. OFLOX TZ (SDAYS)\n4. TAB. M STRONG (1-0-0) (15 DAYS)\n5. TAB. ENTR( (1-0- 3 DAYS)\n6. 7 TAB. MEFTAL SPAS ITABSOS (4 TABLETS)\n7. 8 [TAB LopIRAMIDE [2G [101 (SDAYS)",
+  "discharge_medications": "Medication list at the time of DISCHARGE:\n\n1. TAB. RACTIPER 40Witr - 1-0-0 7DAYS (Before Food)\n2. TAB. EMESET - 3 DAYS\n3. TAB. OFLOX TZ - 5 DAYS\n4. TAB. M STRONG - 1-0-0 15 DAYS\n5. TAB. ENTR( - 1-0-0 3 DAYS\n6. 7 TAB. MEFTAL SPAS ITABSOS - 4 TABLETS\n7. 8 TAB. LopIRAMIDE [2G [101 - 5 DAYS",
+  "allergies": "MISSING",
+  "followup": null,
+  "pending_results": null,
+  "discharge_condition": null,
+  "conflicts": null,
+  "reconciliation": null,
+  "drug_interactions": null,
+  "clinician_flags": [
+    "Possible diagnosis conflict \u2014 multiple sources found",
+    "One or more investigation results are pending",
+    "Allergy information not documented \u2014 clinician must verify",
+    "Agent hit max step cap (20) \u2014 summary may be incomplete"
+  ]
+}

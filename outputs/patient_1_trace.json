@@ -1,0 +1,162 @@
+[
+  {
+    "step": 1,
+    "reasoning": "The critical information missing is demographics, dates, diagnoses, hospital course, procedures, admission medications, discharge medications, allergies, followup, pending results, and discharge condition. Safety checks such as conflicts, reconciliation, and drug interactions have not been done yet. It is not safe to generate the summary yet because some essential information is still missing.",
+    "action": "extract_demographics",
+    "memory_key": "demographics",
+    "result": "Based on the provided clinical documents, the extracted information is as follows:\n\n1. **Patient Name**: MISSING\n2. **Age**: MISSING\n3. **Gender**: She (female)\n4. **MRN/Patient ID**: MRN: Red Yellow \u2014 Green (Note: This appears to be a triage category, not a patient ID)\n5. **Date of Birth**: MISSING",
+    "flags_so_far": 0
+  },
+  {
+    "step": 2,
+    "reasoning": "The critical information still missing includes demographics, dates, diagnoses, hospital course, procedures, admission medications, discharge medications, allergies, followup, pending results, and discharge condition. Safety checks such as conflicts, reconciliation, and drug interactions have not been done yet. It is not safe to generate the summary yet because some necessary information is still missing.",
+    "action": "extract_demographics",
+    "memory_key": "demographics",
+    "result": "Based on the provided clinical documents, the extracted information is as follows:\n\n1. **Patient Name**: MISSING\n2. **Age**: MISSING\n3. **Gender**: She (female)\n4. **MRN/Patient ID**: MRN: Red Yellow \u2014 Green (Note: This appears to be a triage category, not a patient ID)\n5. **Date of Birth**: MISSING",
+    "flags_so_far": 0
+  },
+  {
+    "step": 3,
+    "reasoning": "The critical information still missing includes demographics, dates, diagnoses, hospital course, procedures, admission medications, discharge medications, allergies, followup, pending results, and discharge condition. Safety checks such as conflicts, reconciliation, and drug interactions have not been done yet. It is not safe to generate the summary yet because some necessary information is still missing.",
+    "action": "extract_demographics",
+    "memory_key": "demographics",
+    "result": "Based on the provided clinical documents, the extracted information is as follows:\n\n1. **Patient Name**: MISSING\n2. **Age**: MISSING\n3. **Gender**: She (female)\n4. **MRN/Patient ID**: MRN: Red Yellow \u2014 Green (Note: This appears to be a triage category, not a patient ID)\n5. **Date of Birth**: MISSING",
+    "flags_so_far": 0
+  },
+  {
+    "step": 4,
+    "reasoning": "The critical information still missing includes dates, diagnoses, hospital course, procedures, admission medications, discharge medications, allergies, followup, pending results, and discharge condition. Safety checks such as conflicts, reconciliation, and drug interactions have not been done yet. It is not safe to generate the summary yet because some necessary fields are still missing.",
+    "action": "extract_dates",
+    "memory_key": "dates",
+    "result": "**Admission Date:** MISSING\n**Discharge Date:** 19.05.2026",
+    "flags_so_far": 0
+  },
+  {
+    "step": 5,
+    "reasoning": "The critical information still missing includes diagnoses, hospital course, procedures, admission medications, discharge medications, allergies, followup, pending results, and discharge condition. Safety checks such as conflicts, reconciliation, and drug interactions have not been done yet. It is not safe to generate the summary yet because some necessary fields are still missing and safety checks are incomplete.",
+    "action": "extract_diagnoses",
+    "memory_key": "diagnoses",
+    "result": "Here are the diagnoses extracted from the clinical documents:\n\n1. ACUTE GASTROENTERITIS WITH DEHYDRATION (SOURCE: patient_1.pdf)\n2. URINARY TRACT INFECTION (SOURCE: patient_1.pdf)\n3. THYROID DISORDER (SOURCE: patient_1.pdf)\n4. COLITIS (SOURCE: patient_1.pdf)\n5. FATTY LIVER CHANGES (SOURCE: patient_1...",
+    "flags_so_far": 1
+  },
+  {
+    "step": 6,
+    "reasoning": "The critical information still missing includes hospital course, procedures, admission medications, discharge medications, allergies, followup, pending results, and discharge condition. Safety checks such as conflicts, reconciliation, and drug interactions are not yet done. It is not safe to generate the summary yet because some necessary information is missing and safety checks have not been performed.",
+    "action": "extract_hospital_course",
+    "memory_key": "hospital_course",
+    "result": "**Presenting Complaints:**\n\n- Multiple episodes of loose stools\n- 2-3 episodes of vomiting\n- Fatigue since 3 days\n- Fever since yesterday\n\n**Key Findings:**\n\n- Elevated serum creatinine (1.65 mg/dl)\n- Low serum sodium (128.00 mmol/L)\n- Presence of ketone bodies in urine\n- 10-12/hpf of pus cells in u...",
+    "flags_so_far": 1
+  },
+  {
+    "step": 7,
+    "reasoning": "The critical information still missing includes procedures, admission medications, discharge medications, allergies, followup, pending results, and discharge condition. Safety checks such as conflicts, reconciliation, and drug interactions have not been done yet. It is not safe to generate the summary yet because some necessary information is still missing and safety checks have not been performed.",
+    "action": "extract_procedures",
+    "memory_key": "procedures",
+    "result": "**Procedures Performed:**\n\n1. IV fluids administration\n2. IV antibiotics administration\n3. IV PPI's administration\n4. IV antiemetics administration\n5. USG abdomen and pelvis\n6. Dressing (no further details provided)\n\n**Investigations Ordered:**\n\n1. CBC (Complete Blood Count) - result available\n2. Se...",
+    "flags_so_far": 2
+  },
+  {
+    "step": 8,
+    "reasoning": "The critical information still missing includes admission and discharge medications, allergies, followup, pending results, and discharge condition. Safety checks such as conflicts, reconciliation, and drug interactions are not yet done. It is not safe to generate the summary yet because some necessary fields are missing and safety checks are incomplete.",
+    "action": "extract_admission_medications",
+    "memory_key": "admission_medications",
+    "result": "Medication list at the time of ADMISSION:\n\n1. TAB. RACTIPER 40Witr (1-0-0)\n2. TAB. EMESET (3 DAYS)\n3. TAB. OFLOX TZ (SDAYS)\n4. TAB. M STRONG (1-0-0) (15 DAYS)\n5. TAB. ENTR( (1-0- 3 DAYS)\n6. 7 TAB. MEFTAL SPAS ITABSOS (4 TABLETS)\n7. 8 [TAB LopIRAMIDE [2G [101 (SDAYS)",
+    "flags_so_far": 2
+  },
+  {
+    "step": 9,
+    "reasoning": "The critical information still missing includes discharge medications, allergies, followup, pending results, and discharge condition. Safety checks such as conflict detection and drug interaction check are not done yet. It is not safe to generate the summary yet because some necessary fields are not attempted and safety checks are incomplete.",
+    "action": "extract_discharge_medications",
+    "memory_key": "discharge_medications",
+    "result": "Medication list at the time of DISCHARGE:\n\n1. TAB. RACTIPER 40Witr - 1-0-0 7DAYS (Before Food)\n2. TAB. EMESET - 3 DAYS\n3. TAB. OFLOX TZ - 5 DAYS\n4. TAB. M STRONG - 1-0-0 15 DAYS\n5. TAB. ENTR( - 1-0-0 3 DAYS\n6. 7 TAB. MEFTAL SPAS ITABSOS - 4 TABLETS\n7. 8 TAB. LopIRAMIDE [2G [101 - 5 DAYS",
+    "flags_so_far": 2
+  },
+  {
+    "step": 10,
+    "reasoning": "The critical information still missing includes allergies, followup, pending results, and discharge condition. Safety checks such as conflicts, reconciliation, and drug interactions are not yet done. It is not safe to generate the summary yet because some necessary information is missing and safety checks have not been performed.",
+    "action": "extract_allergies",
+    "memory_key": "allergies",
+    "result": "MISSING",
+    "flags_so_far": 3
+  },
+  {
+    "step": 11,
+    "reasoning": "The critical information still missing includes allergies, follow-up instructions, pending results, and discharge condition. Safety checks such as conflict detection, medication reconciliation, and drug interaction checks have not been performed yet. It is not safe to generate the summary until these checks are done.",
+    "action": "extract_allergies",
+    "memory_key": "allergies",
+    "result": "MISSING",
+    "flags_so_far": 3
+  },
+  {
+    "step": 12,
+    "reasoning": "The critical information still missing includes allergies, follow-up instructions, pending results, and discharge condition. Safety checks such as conflict detection, medication reconciliation, and drug interaction checks are not yet done. It is not safe to generate the summary yet because some necessary information is missing and safety checks are incomplete.",
+    "action": "extract_allergies",
+    "memory_key": "allergies",
+    "result": "MISSING",
+    "flags_so_far": 3
+  },
+  {
+    "step": 13,
+    "reasoning": "The critical information still missing includes allergies, follow-up instructions, pending results, and discharge condition. Safety checks such as conflict detection, medication reconciliation, and drug interaction checks are not yet done. It is not safe to generate the summary yet because some necessary information is missing and safety checks are incomplete.",
+    "action": "extract_allergies",
+    "memory_key": "allergies",
+    "result": "MISSING",
+    "flags_so_far": 3
+  },
+  {
+    "step": 14,
+    "reasoning": "The critical information still missing includes allergies, follow-up instructions, pending results, and discharge condition. Safety checks such as conflict detection, medication reconciliation, and drug interaction checks have not been performed yet. It is not safe to generate the summary until these checks are done.",
+    "action": "extract_allergies",
+    "memory_key": "allergies",
+    "result": "MISSING",
+    "flags_so_far": 3
+  },
+  {
+    "step": 15,
+    "reasoning": "The critical information still missing includes allergies, follow-up instructions, pending results, and discharge condition. Safety checks such as conflict detection, medication reconciliation, and drug interaction checks have not been performed yet. It is not safe to generate the summary until these checks are done.",
+    "action": "extract_allergies",
+    "memory_key": "allergies",
+    "result": "MISSING",
+    "flags_so_far": 3
+  },
+  {
+    "step": 16,
+    "reasoning": "The critical information still missing includes allergies, follow-up instructions, pending results, and discharge condition. Safety checks such as conflict detection, medication reconciliation, and drug interaction checks are not yet done. It is not safe to generate the summary yet because some necessary information is missing and safety checks are incomplete.",
+    "action": "extract_allergies",
+    "memory_key": "allergies",
+    "result": "MISSING",
+    "flags_so_far": 3
+  },
+  {
+    "step": 17,
+    "reasoning": "The critical information still missing includes allergies, follow-up instructions, pending results, and discharge condition. Safety checks such as conflict detection, medication reconciliation, and drug interaction checks are not yet done. It is not safe to generate the summary yet because some necessary information is missing and safety checks are incomplete.",
+    "action": "extract_allergies",
+    "memory_key": "allergies",
+    "result": "MISSING",
+    "flags_so_far": 3
+  },
+  {
+    "step": 18,
+    "reasoning": "The critical information still missing includes allergies, follow-up instructions, pending results, and discharge condition. Safety checks such as conflict detection, medication reconciliation, and drug interaction checks are not yet done. It is not safe to generate the summary yet because some necessary information is missing and safety checks are incomplete.",
+    "action": "extract_allergies",
+    "memory_key": "allergies",
+    "result": "MISSING",
+    "flags_so_far": 3
+  },
+  {
+    "step": 19,
+    "reasoning": "The critical information still missing includes allergies, follow-up instructions, pending results, and discharge condition. Safety checks such as conflict detection, medication reconciliation, and drug interaction checks are not yet done. It is not safe to generate the summary yet because some necessary information is missing and safety checks are incomplete.",
+    "action": "extract_allergies",
+    "memory_key": "allergies",
+    "result": "MISSING",
+    "flags_so_far": 3
+  },
+  {
+    "step": 20,
+    "reasoning": "The critical information still missing includes allergies, follow-up instructions, pending results, and discharge condition. Safety checks such as conflict detection, medication reconciliation, and drug interaction checks are not yet done. It is not safe to generate the summary yet because some necessary information is missing and safety checks are incomplete.",
+    "action": "extract_allergies",
+    "memory_key": "allergies",
+    "result": "MISSING",
+    "flags_so_far": 3
+  }
+]

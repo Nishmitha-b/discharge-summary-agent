@@ -1,0 +1,7 @@
+CLINICIAN FLAGS — patient_1
+Generated: 2026-06-04 05:53:16.687958
+
+1. Possible diagnosis conflict — multiple sources found
+2. One or more investigation results are pending
+3. Allergy information not documented — clinician must verify
+4. Agent hit max step cap (20) — summary may be incomplete
